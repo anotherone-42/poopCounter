@@ -4,7 +4,7 @@ Setup:
 Dans un folder, initialisez node js:  
 ```bash 
 npm init```
-
+```
 Intallez discord.js:  
 ```npm -i discord.js```  
 Dans le fichier config.json", changez le token par le votre,  
