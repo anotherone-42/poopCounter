@@ -1,7 +1,9 @@
 const { Client, GatewayIntentBits, EmbedBuilder  } = require('discord.js');
 const {token,} = require ('./config.json');
 const sqlite3 = require('sqlite3').verbose();
-const allowedChannelId = "1324424935661244417"
+const allowedChannelId = "YOUR_CHANNEL_ID"
+const adminUser = "YOUR_USER_ID"
+
 // Crée une connexion à la base de données SQLite
 const db = new sqlite3.Database('./scores.db', (err) => {
     if (err) {
@@ -131,7 +133,7 @@ client.on('messageCreate', (message) => {
     }
     if (message.content === '&clear' && !message.author.bot) {
         // Vérifie si l'ID de l'auteur correspond à l'ID autorisé
-        if (message.author.id !== '449578427113275402') {
+        if (message.author.id !== adminUser) {
             return message.reply('Tu n\'as pas la permission de supprimer les scores. (chèh)');
         }
 
