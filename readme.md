@@ -3,7 +3,7 @@ Bot Discord pour compter vos cacas
 Setup:
 Dans un folder, initialisez node js:  
 ```bash 
-npm init```
+npm init
 ```
 Intallez discord.js:  
 ```npm -i discord.js```  
