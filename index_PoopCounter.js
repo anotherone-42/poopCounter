@@ -33,7 +33,7 @@ client.on('messageCreate', (message) => {
     if (message.channel.id !== allowedChannelId) {
         return; // Ignore les messages des autres canaux
     }
-    if (message.content === '/help') {
+    if (message.content === '&help') {
         const helpEmbed = new EmbedBuilder()
             .setTitle('Bot PoopCounter')
             .setColor(0x00ff00) // Vert
@@ -102,7 +102,7 @@ client.on('messageCreate', (message) => {
     if (message.channel.id !== allowedChannelId) {
         return; // Ignore les messages des autres canaux
     }
-    if (message.content === '/leaderboard' && !message.author.bot) {
+    if (message.content === '&leaderboard' && !message.author.bot) {
         // Récupérer et trier les scores
         db.all('SELECT username, score FROM scores ORDER BY score DESC LIMIT 10', [], (err, rows) => {
             if (err) {
@@ -131,7 +131,7 @@ client.on('messageCreate', (message) => {
     if (message.channel.id !== allowedChannelId) {
         return; // Ignore les messages des autres canaux
     }
-    if (message.content === '/clear' && !message.author.bot) {
+    if (message.content === '&clear' && !message.author.bot) {
         // Vérifie si l'ID de l'auteur correspond à l'ID autorisé
         if (message.author.id !== adminUser) {
             return message.reply('Tu n\'as pas la permission de supprimer les scores. (chèh)');
