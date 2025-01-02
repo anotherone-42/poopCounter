@@ -8,4 +8,5 @@ Intallez discord.js:
 Dans le fichier config.json", changez le token par le votre,  
 Executez le fichier ```index_PoopCounter.js``` avec node js  
 Dans le fichier index_PoopCounter.js, changez les informations en tete de code en fonction de vos besoin.
-Pour lancer le bot, executez ```node index_PoopCounter.js```
+Pour lancer le bot, executez:  
+ ```node index_PoopCounter.js```
