@@ -7,7 +7,7 @@ npm init
 ```
 Intallez discord.js: 
 ```bash
-npm -i discord.js
+npm install discord.js
 ```  
 Dans le fichier config.json", changez le token par le votre,  
 Dans le fichier index_PoopCounter.js, changez les informations en entête de code en fonction de vos besoins.
