@@ -5,9 +5,10 @@ Dans un folder, initialisez node js:
 ```bash 
 npm init
 ```
-Intallez discord.js: 
+Intallez discord.js & mysql: 
 ```bash
 npm install discord.js
+npm install mysql2
 ```  
 Dans le fichier config.json", changez le token par le votre,  
 Dans le fichier index_PoopCounter.js, changez les informations en entête de code en fonction de vos besoins.
