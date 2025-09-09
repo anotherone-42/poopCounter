@@ -1,4 +1,6 @@
-Bot Discord pour compter vos cacas
+# Bot Discord pour compter vos cacas  
+
+BTC adress for donations: bc1qldzadlm29m520xqfg0qwgepk3d5ltdkrknzfnk  
 
 Setup:
 Dans un folder, initialisez node js:  
