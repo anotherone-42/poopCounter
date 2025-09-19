@@ -1,7 +1,7 @@
 # Bot Discord pour compter vos cacas  
 
-BTC adress for donations: bc1qldzadlm29m520xqfg0qwgepk3d5ltdkrknzfnk  
-
+XMR adress for donations: 4AJtFkiynSSiRrzcNeD2PkhRnLvd35zPt1PCng5NCDfAExn9cZ9jPnY6Bc3RkadLPLEyMCa7aWcXyL725mmrZ3BcNdSCYuH  
+  
 Setup:
 Dans un folder, initialisez node js:  
 ```bash 
